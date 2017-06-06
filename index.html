@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="css/main.css">
+    <title>2DO!
+    </title>
+  </head>
+  <body>
+    <header></header>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <div class="scroll"></div>
+          <div class="control-container">
+            <button class="btn newTask">new</button>
+            <select id="project_sort">
+              <option value="all">Все</option>
+              <option value="проект 1">Проект 1</option>
+              <option value="проект 2">Проект 2</option>
+            </select>
+          </div>
+          <div class="add-new">
+            <form>
+              <div class="form-group">
+                <label>Название задачи</label>
+                <input id="title" type="text">
+              </div>
+              <div class="form-group">
+                <label>Название проекта</label>
+                <select id="project">
+                  <option value="проект 1">Проект 1</option>
+                  <option value="проект 2">Проект 2</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Приоритет</label>
+                <select id="proprity">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Описание</label>
+                <textarea id="description"></textarea>
+              </div>
+              <button class="save">Save</button>
+              <button class="cancel">cancel</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
