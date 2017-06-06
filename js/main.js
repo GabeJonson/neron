@@ -3,7 +3,7 @@ $(document).ready(function() {
 });
 
 let task = (function() {
-  let URL = 'http://592ac6c690c9d500119cdc2e.mockapi.io/task';
+  let URL = 'https://592ac6c690c9d500119cdc2e.mockapi.io/task';
 
   return {
     init: function() {
